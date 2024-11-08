@@ -1,0 +1,86 @@
+/*Style for the body box*/
+.home {
+    border: 2px solid black;
+    margin: auto;
+    width:90%;
+}
+
+.top-part {
+    border: grey;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+/*Style for details TODO*/
+.details, h2 { 
+    text-align: right;
+}
+
+
+/*Style for price and description AKA row2*/
+.row2 {
+    display: inline-block;
+    justify-content: space-between;
+    padding: none;
+    margin: 0;
+}
+
+.free{
+    color: grey;
+    font-size: 10px;
+}
+/*Style for images*/
+img {
+    width: 20%;
+    height: 100%;
+}
+
+
+/*Style for the add to cart*/
+.cart {
+    background-color: #000000;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    text-decoration: none;
+    margin: auto;
+    cursor: pointer;
+    
+}
+.cart:hover {
+    background-color: white;
+    color: black;
+    border:2px solid black;
+    
+}
+
+
+/*Style for markers*/
+.container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.marker {
+    width: 15px;
+    height: 15px;
+    margin: 2px 3px;
+}
+.black {
+    background-color: black;
+}
+.blue {
+    background-color: blue;
+}
+.red {
+    background-color: red;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: greenyellow;
+}
+.brown {
+    background-color: brown;
+}
