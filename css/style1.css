@@ -21,7 +21,7 @@ body {
   position: relative;
 }
 
-.sale-badge {
+.sale {
   position: absolute;
   top: -10px;
   left: -30px;
@@ -34,19 +34,21 @@ body {
 
 .top-part {
   text-align: center;
-  font-size: 18px;
-  margin: 10px 0;
+  font-size: 13px ;
+  background-color: rgb(199, 195, 195);
 }
+
 
 .content {
   display: flex;
-  margin-top: 20px;
+  margin: auto;
 }
 
-.product-image {
+img {
   width: 20%;
   object-fit: fill;
-  border-radius: 8px;
+  border-radius: 0px;
+  margin-bottom: 0px;
 }
 
 .product-info {
@@ -54,7 +56,7 @@ body {
   padding-left: 15px;
 }
 
-.price-shipping {
+.shipping {
   display: flex;
   align-items: baseline;
 }
@@ -66,7 +68,7 @@ body {
   top: 70px; 
 }
 
-.free-shipping {
+.free {
   color: #888;
   font-size: 14px;
   position: absolute;
@@ -75,7 +77,7 @@ body {
   position: absolute;
   top: 58px;
 }
-.product {
+.details {
   color: #090000;
   font-weight: bold;
   font-size: 20px;
@@ -94,54 +96,53 @@ body {
 
 .more-info {
   font-size: 14px;
-  color: #007bff;
-  text-decoration: none;
+  color: #000000;
+  text-decoration: underline;
 }
 
-.color-options {
+.markers {
   display: flex;
   gap: 6px;
   margin: 10px 0;
 }
 
-.color {
+.marker {
   
   display: block;
-  width: 20px;
-  height: 20px;
-  border-radius: 5px;
+  width: 25px;
+  height: 25px;
   border: 1px solid #ddd;
   cursor: pointer;
 
 }
 
-.color.black { background-color: #000; }
-.color.blue { background-color: #0044cc; }
-.color.red { background-color: #ff0000; }
-.color.orange { background-color: #ffa500; }
-.color.green { background-color: #00cc00; }
-.color.brown { background-color: #8b4513; }
+.marker.black { background-color: #000; }
+.marker.blue { background-color: #0044cc; }
+.marker.red { background-color: #ff0000; }
+.marker.orange { background-color: #ffa500; }
+.marker.green { background-color: #00cc00; }
+.marker.brown { background-color: #8b4513; }
 
-.product-details h2 {
-  font-size: 16px;
-  margin: 10px 0;
+
+.product-details {
+  margin-top: 10px;
+  padding: 15px;
 }
 
 .product-details ul {
   list-style-type: none;
-  color: #0a0909;
   font-size: 14px;
   margin-left: 270px; 
   align-self: flex-start; 
   position: absolute;
-  top: 95px; 
+  top: 70px; 
 }
 
 .product-details li {
-  margin: 5px 0;
+  margin: 10px 0;
 }
 
-.add-to-cart {
+.cart {
   display: block;
   width: 100%;
   padding: 15px;
@@ -151,8 +152,10 @@ body {
   text-align: center;
   border: none;
   cursor: pointer;
-  margin-top: 20px;
+  margin-top: 0px;
 }
-.add-to-cart:hover {
-  background-color: #555;
+.cart:hover {
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
 }
