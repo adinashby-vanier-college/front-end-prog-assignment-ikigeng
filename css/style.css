@@ -1,0 +1,108 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #ff5e78;
+}
+
+.navbar-brand {
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.nav-link {
+  color: white;
+  font-weight: 500;
+  margin: 0 10px;
+}
+
+/* Hero Section */
+.hero-section {
+  background-color: #ff5e78;
+  color: white;
+  padding: 60px 20px;
+}
+
+.hero-title {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.phone-img {
+  max-width: 60%;
+  margin-top: 20px;
+  border: 5px solid white;
+  border-radius: 15px;
+}
+
+/* Features Section */
+.features-section {
+  background-color: #f9f9f9;
+}
+
+.feature-icon {
+  font-size: 50px;
+  color: #ff5e78;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Footer Section */
+.footer-section {
+  background-color: #ff5e78;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.footer-section h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.footer-buttons {
+  margin-top: 20px;
+}
+
+.footer-buttons .btn {
+  margin: 0 10px;
+}
+
+.social-icons {
+  margin-top: 30px;
+}
+
+.social-icons i {
+  font-size: 20px;
+  color: white;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.copyright {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #f9f9f9;
+}
+
+.iphone {
+  transform: rotate(40deg);
+  max-width: 50%;
+  max-height: 50%;
+  padding-left: 200px;
+  margin-left: auto;
+}
